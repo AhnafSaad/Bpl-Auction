@@ -1,0 +1,122 @@
+[
+  {
+    "playerName": "Mohammad Naim Sheikh",
+    "playerImg": "https://example.com/images/naim-sheikh.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Opening Batter",
+    "rating": 4.5,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "N/A",
+    "price": "BDT 1.10 Crore"
+  },
+  {
+    "playerName": "Towhid Hridoy",
+    "playerImg": "https://example.com/images/towhid-hridoy.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batter",
+    "rating": 4.8,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "BDT 92 Lakh"
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://example.com/images/mustafizur.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 4.9,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": "Direct Signing"
+  },
+  {
+    "playerName": "Dasun Shanaka",
+    "playerImg": "https://example.com/images/shanaka.jpg",
+    "playerCountry": "Sri Lanka",
+    "playingRole": "All-rounder",
+    "rating": 4.6,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": "USD 55,000"
+  },
+  {
+    "playerName": "Tanzim Hasan Sakib",
+    "playerImg": "https://example.com/images/tanzim-sakib.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 4.4,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": "BDT 68 Lakh"
+  },
+  {
+    "playerName": "Litton Das",
+    "playerImg": "https://example.com/images/litton-das.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicketkeeper Batter",
+    "rating": 4.7,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "price": "BDT 70 Lakh"
+  },
+  {
+    "playerName": "Shoriful Islam",
+    "playerImg": "https://example.com/images/shoriful.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 4.9,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm medium-fast",
+    "price": "BDT 44 Lakh"
+  },
+  {
+    "playerName": "Alex Hales",
+    "playerImg": "https://example.com/images/alex-hales.jpg",
+    "playerCountry": "England",
+    "playingRole": "Opening Batter",
+    "rating": 4.7,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": "Direct Signing"
+  },
+  {
+    "playerName": "Mohammad Saifuddin",
+    "playerImg": "https://example.com/images/saifuddin.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 4.3,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": "BDT 68 Lakh"
+  },
+  {
+    "playerName": "Nahid Rana",
+    "playerImg": "https://example.com/images/nahid-rana.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 4.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": "BDT 56 Lakh"
+  },
+  {
+    "playerName": "Mushfiqur Rahim",
+    "playerImg": "https://example.com/images/mushfiqur.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicketkeeper Batter",
+    "rating": 4.6,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "price": "BDT 35 Lakh"
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://example.com/images/shakib.jpg",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 4.9,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox spin",
+    "price": "Direct Signing"
+  }
+]
