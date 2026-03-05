@@ -7,7 +7,7 @@
     "rating": 4.5,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "N/A",
-    "price": "BDT 1.10 Crore"
+    "price": "1100000"
   },
   {
     "playerName": "Towhid Hridoy",
@@ -17,7 +17,7 @@
     "rating": 4.8,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "BDT 92 Lakh"
+    "price": "9302930"
   },
   {
     "playerName": "Mustafizur Rahman",
@@ -27,7 +27,7 @@
     "rating": 4.9,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": "Direct Signing"
+    "price": "4400000"
   },
   {
     "playerName": "Dasun Shanaka",
@@ -37,7 +37,7 @@
     "rating": 4.6,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": "USD 55,000"
+    "price": "545000"
   },
   {
     "playerName": "Tanzim Hasan Sakib",
@@ -47,7 +47,7 @@
     "rating": 4.4,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": "BDT 68 Lakh"
+    "price": "7582849"
   },
   {
     "playerName": "Litton Das",
@@ -57,7 +57,7 @@
     "rating": 4.7,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
-    "price": "BDT 70 Lakh"
+    "price": "7000036"
   },
   {
     "playerName": "Shoriful Islam",
@@ -67,7 +67,7 @@
     "rating": 4.9,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm medium-fast",
-    "price": "BDT 44 Lakh"
+    "price": "4040404"
   },
   {
     "playerName": "Alex Hales",
@@ -77,7 +77,7 @@
     "rating": 4.7,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": "Direct Signing"
+    "price": "3000000"
   },
   {
     "playerName": "Mohammad Saifuddin",
@@ -87,7 +87,7 @@
     "rating": 4.3,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": "BDT 68 Lakh"
+    "price": "6800000"
   },
   {
     "playerName": "Nahid Rana",
@@ -97,7 +97,7 @@
     "rating": 4.5,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": "BDT 56 Lakh"
+    "price": "5600000"
   },
   {
     "playerName": "Mushfiqur Rahim",
@@ -107,7 +107,7 @@
     "rating": 4.6,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
-    "price": "BDT 35 Lakh"
+    "price": "3500000"
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -117,6 +117,6 @@
     "rating": 4.9,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox spin",
-    "price": "Direct Signing"
+    "price": "6000000"
   }
 ]

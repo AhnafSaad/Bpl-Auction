@@ -10,8 +10,9 @@ import { Suspense } from "react";
 
 function App() {
 
-const playersPromise = fetchPlayers();
+
 const [toggle , setToggle] = useState(true);
+const[availablebalance,setavailablebalance] = useState(600000000);
 
   return (
    <div className="px-[200px]">
@@ -24,7 +25,7 @@ const [toggle , setToggle] = useState(true);
     </div>
     <div className="flex">
       <button className="btn btn-ghost flex items-center gap-2">
-        <span>6000000</span>
+        <span>{availablebalance}</span>
         <span>Coin</span>
         <img className="w-5 h-5" src={dollar} alt="Dollar Icon" />
       </button>
@@ -42,7 +43,7 @@ const [toggle , setToggle] = useState(true);
 </div>
 
 {toggle == true ? <Suspense fallback={<div>Loading...</div>}>
-  <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+  <AvailablePlayers playersPromise={playersPromise} availablebalance={availablebalance} setavailablebalance={setavailablebalance}></AvailablePlayers>
 </Suspense> : <SelectedPlayers playersPromise={playersPromise}></SelectedPlayers>} 
 
   
@@ -56,6 +57,6 @@ const [toggle , setToggle] = useState(true);
     const res = await fetch("/players.json");
     return res.json();
   }
-
+const playersPromise = fetchPlayers();
 
 export default App

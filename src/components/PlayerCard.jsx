@@ -1,8 +1,8 @@
 import Flag from "../assets/flag.png";
-import React from "react";
+import React, { useState } from "react";
 import User1 from "../assets/user1.png";
 
-const PlayerCard = ({ player }) => {
+const PlayerCard = ({ player, availablebalance, setavailablebalance }) => {
     
 const [isSelected , setIsSelected] = useState(false);
     return (
@@ -36,7 +36,9 @@ const [isSelected , setIsSelected] = useState(false);
             <span> <h2 className="font-bold">Price:</h2></span><span><h2 className="font-bold">{player.price}</h2></span>
         </div>
         <div className="pb-2">
-            <button onClick={()=>setIsSelected(true)} className="btn border-rounded-2">{isSelected === true? 'Selected': 'Choose Player'}</button>
+            <button disabled={isSelected} onClick={()=>{
+                setIsSelected(true), setavailablebalance(availablebalance - player.price)}
+                } className="btn border-rounded-2">{isSelected === true? 'Selected': 'Choose Player'}</button>
         </div>
 </div>
   </div>
@@ -45,3 +47,4 @@ const [isSelected , setIsSelected] = useState(false);
 };
 
 export default PlayerCard;
+
