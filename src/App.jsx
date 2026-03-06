@@ -13,6 +13,7 @@ function App() {
 
 const [toggle , setToggle] = useState(true);
 const[availablebalance,setavailablebalance] = useState(600000000);
+const[purchasedPlayers, setPurchasedPlayers] = useState([]);
 
   return (
    <div className="px-[200px]">
@@ -43,10 +44,8 @@ const[availablebalance,setavailablebalance] = useState(600000000);
 </div>
 
 {toggle == true ? <Suspense fallback={<div>Loading...</div>}>
-  <AvailablePlayers playersPromise={playersPromise} availablebalance={availablebalance} setavailablebalance={setavailablebalance}></AvailablePlayers>
-</Suspense> : <SelectedPlayers playersPromise={playersPromise}></SelectedPlayers>} 
-
-  
+  <AvailablePlayers playersPromise={playersPromise} purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} availablebalance={availablebalance} setavailablebalance={setavailablebalance}></AvailablePlayers>
+</Suspense> : <SelectedPlayers playersPromise={playersPromise} purchasedPlayers={purchasedPlayers}></SelectedPlayers>} 
 
 </div>
 
